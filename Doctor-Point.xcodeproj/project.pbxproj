@@ -26,25 +26,9 @@
 		A8EDAE9B2829052600EA12D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8EDAE9D2829052600EA12D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8EDAEA4282919E600EA12D9 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
-		A8EDAEA5282919E600EA12D9 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
 		A8EDAEA6282919E600EA12D9 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
-		A8EDAEA7282919E600EA12D9 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEA8282919E600EA12D9 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
-		A8EDAEA9282919E600EA12D9 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEAA282919E600EA12D9 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEAB282919E600EA12D9 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
-		A8EDAEAC282919E600EA12D9 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A8EDAEAD282919E600EA12D9 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEAE282919E600EA12D9 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEAF282919E600EA12D9 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEB0282919E600EA12D9 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEB1282919E600EA12D9 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
-		A8EDAEB2282919E600EA12D9 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
-		A8EDAEB3282919E600EA12D9 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
 		A8EDAEB4282919E600EA12D9 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		A8EDAEB5282919E600EA12D9 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
-		A8EDAEB6282919E600EA12D9 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
-		A8EDAEB7282919E600EA12D9 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,26 +76,10 @@
 		A8EDAEA32829197900EA12D9 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				A8EDAEB2282919E600EA12D9 /* Gilroy-Black.ttf */,
-				A8EDAEAF282919E600EA12D9 /* Gilroy-BlackItalic.ttf */,
 				A8EDAEA6282919E600EA12D9 /* Gilroy-Bold.ttf */,
-				A8EDAEB1282919E600EA12D9 /* Gilroy-BoldItalic.ttf */,
-				A8EDAEAC282919E600EA12D9 /* Gilroy-ExtraBold.ttf */,
-				A8EDAEAE282919E600EA12D9 /* Gilroy-ExtraBoldItalic.ttf */,
-				A8EDAEB3282919E600EA12D9 /* Gilroy-Heavy.ttf */,
-				A8EDAEAD282919E600EA12D9 /* Gilroy-HeavyItalic.ttf */,
-				A8EDAEA8282919E600EA12D9 /* Gilroy-Light.ttf */,
-				A8EDAEB0282919E600EA12D9 /* Gilroy-LightItalic.ttf */,
 				A8EDAEB5282919E600EA12D9 /* Gilroy-Medium.ttf */,
-				A8EDAEA9282919E600EA12D9 /* Gilroy-MediumItalic.ttf */,
 				A8EDAEA4282919E600EA12D9 /* Gilroy-Regular.ttf */,
-				A8EDAEA7282919E600EA12D9 /* Gilroy-RegularItalic.ttf */,
 				A8EDAEB4282919E600EA12D9 /* Gilroy-SemiBold.ttf */,
-				A8EDAEAA282919E600EA12D9 /* Gilroy-SemiBoldItalic.ttf */,
-				A8EDAEAB282919E600EA12D9 /* Gilroy-Thin.ttf */,
-				A8EDAEA5282919E600EA12D9 /* Gilroy-ThinItalic.ttf */,
-				A8EDAEB6282919E600EA12D9 /* Gilroy-UltraLight.ttf */,
-				A8EDAEB7282919E600EA12D9 /* Gilroy-UltraLightItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
