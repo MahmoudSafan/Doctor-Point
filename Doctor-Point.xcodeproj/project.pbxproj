@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8DF4834282A4B35000D2498 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DF4833282A4B35000D2498 /* UIViewExtention.swift */; };
 		A8EDAE902829052400EA12D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EDAE8F2829052400EA12D9 /* AppDelegate.swift */; };
 		A8EDAE922829052400EA12D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EDAE912829052400EA12D9 /* SceneDelegate.swift */; };
 		A8EDAE942829052400EA12D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EDAE932829052400EA12D9 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8DF4833282A4B35000D2498 /* UIViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
 		A8EDAE8C2829052400EA12D9 /* Doctor-Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doctor-Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EDAE8F2829052400EA12D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8EDAE912829052400EA12D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8DF4831282A40A2000D2498 /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A8EDAE932829052400EA12D9 /* ViewController.swift */,
+				A8EDAE952829052400EA12D9 /* Main.storyboard */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		A8DF4832282A4ADC000D2498 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				A8DF4833282A4B35000D2498 /* UIViewExtention.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
 		A8EDAE832829052400EA12D9 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +80,10 @@
 		A8EDAE8E2829052400EA12D9 /* Doctor-Point */ = {
 			isa = PBXGroup;
 			children = (
+				A8DF4832282A4ADC000D2498 /* Utilites */,
+				A8DF4831282A40A2000D2498 /* onboarding */,
 				A8EDAE8F2829052400EA12D9 /* AppDelegate.swift */,
 				A8EDAE912829052400EA12D9 /* SceneDelegate.swift */,
-				A8EDAE932829052400EA12D9 /* ViewController.swift */,
-				A8EDAE952829052400EA12D9 /* Main.storyboard */,
 				A8EDAE982829052600EA12D9 /* Assets.xcassets */,
 				A8EDAE9A2829052600EA12D9 /* LaunchScreen.storyboard */,
 				A8EDAE9D2829052600EA12D9 /* Info.plist */,
@@ -159,6 +178,7 @@
 				A8EDAE942829052400EA12D9 /* ViewController.swift in Sources */,
 				A8EDAE902829052400EA12D9 /* AppDelegate.swift in Sources */,
 				A8EDAE922829052400EA12D9 /* SceneDelegate.swift in Sources */,
+				A8DF4834282A4B35000D2498 /* UIViewExtention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

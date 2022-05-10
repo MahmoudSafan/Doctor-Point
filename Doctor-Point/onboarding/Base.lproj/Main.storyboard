@@ -261,7 +261,7 @@ Get consultent.</string>
         <!--View Controller-->
         <scene sceneID="pnx-P4-cYF">
             <objects>
-                <viewController id="uVH-eI-ibF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding1" id="uVH-eI-ibF" customClass="ViewController" customModule="Doctor_Point" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7qj-4C-VGF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -323,6 +323,11 @@ You can easily contact with the doctors and contact for your needs.</string>
                                                         <buttonConfiguration key="configuration" style="plain" title="Get started">
                                                             <fontDescription key="titleFontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
                                                         </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiu-AP-h2h">
                                                         <rect key="frame" x="0.0" y="70.5" width="306" height="27"/>
@@ -352,6 +357,11 @@ You can easily contact with the doctors and contact for your needs.</string>
                                     <constraint firstAttribute="bottom" secondItem="Qog-n6-IO3" secondAttribute="bottom" constant="40" id="LWl-Kh-ZyO"/>
                                     <constraint firstAttribute="trailing" secondItem="Qog-n6-IO3" secondAttribute="trailing" constant="30" id="dr0-QE-drh"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FIV-Cq-ylC"/>
