@@ -18,9 +18,9 @@
         <!--Navigation Controller-->
         <scene sceneID="sNy-W9-DrB">
             <objects>
-                <navigationController id="2i6-gK-Y2P" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="2i6-gK-Y2P" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gas-Du-w0D">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -34,7 +34,7 @@
         <!--View Controller-->
         <scene sceneID="Zhs-vq-87y">
             <objects>
-                <viewController id="ezd-fy-kxM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding_3" id="ezd-fy-kxM" customClass="ViewController" customModule="Doctor_Point" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5vz-ri-Cz2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,6 +94,14 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="Get started">
                                                             <fontDescription key="titleFontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
                                                         </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="getStarted2_btn:" destination="ezd-fy-kxM" eventType="touchUpInside" id="z7N-UO-FxF"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cE7-cU-rO7">
                                                         <rect key="frame" x="0.0" y="70.5" width="306" height="27"/>
@@ -102,6 +110,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="Skip for now">
                                                             <fontDescription key="titleFontDescription" name="Gilroy-Regular" family="Gilroy-Regular" pointSize="13"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="skip_btn:" destination="ezd-fy-kxM" eventType="touchUpInside" id="zp3-G2-hFq"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -123,6 +134,11 @@
                                     <constraint firstItem="e33-g1-sRh" firstAttribute="leading" secondItem="cRF-8b-2uB" secondAttribute="leading" constant="30" id="ZDk-J6-aTm"/>
                                     <constraint firstAttribute="bottom" secondItem="e33-g1-sRh" secondAttribute="bottom" constant="40" id="dGU-tn-LNm"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HX0-CB-yFA"/>
@@ -139,6 +155,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qKY-jD-AOW"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UqC-YN-0LF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,7 +164,7 @@
         <!--View Controller-->
         <scene sceneID="bq8-c6-ISx">
             <objects>
-                <viewController id="y84-O1-TDo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding_4" id="y84-O1-TDo" customClass="ViewController" customModule="Doctor_Point" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GGX-m2-GOC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,6 +226,14 @@ Get consultent.</string>
                                                         <buttonConfiguration key="configuration" style="plain" title="Get started">
                                                             <fontDescription key="titleFontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
                                                         </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="getStarted3_btn:" destination="y84-O1-TDo" eventType="touchUpInside" id="Bbv-Cj-2YF"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9F-TE-Dgl">
                                                         <rect key="frame" x="0.0" y="70.5" width="306" height="27"/>
@@ -238,6 +263,11 @@ Get consultent.</string>
                                     <constraint firstAttribute="trailing" secondItem="5zZ-CO-PsD" secondAttribute="trailing" constant="30" id="jMZ-fF-WDq"/>
                                     <constraint firstAttribute="bottom" secondItem="5zZ-CO-PsD" secondAttribute="bottom" constant="40" id="m5h-zz-lH8"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ITX-BV-Fn1"/>
@@ -253,6 +283,7 @@ Get consultent.</string>
                             <constraint firstItem="Xjj-CF-AGL" firstAttribute="top" secondItem="C4m-jy-i1Y" secondAttribute="bottom" multiplier="1.21" id="x3d-Mx-HiX"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLr-dt-Fho" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -261,7 +292,7 @@ Get consultent.</string>
         <!--View Controller-->
         <scene sceneID="pnx-P4-cYF">
             <objects>
-                <viewController storyboardIdentifier="Onboarding1" id="uVH-eI-ibF" customClass="ViewController" customModule="Doctor_Point" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding2" id="uVH-eI-ibF" customClass="ViewController" customModule="Doctor_Point" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7qj-4C-VGF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -328,6 +359,9 @@ You can easily contact with the doctors and contact for your needs.</string>
                                                                 <real key="value" value="10"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="getStarted1_btn:" destination="uVH-eI-ibF" eventType="touchUpInside" id="pdW-Qy-neq"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiu-AP-h2h">
                                                         <rect key="frame" x="0.0" y="70.5" width="306" height="27"/>
@@ -336,6 +370,9 @@ You can easily contact with the doctors and contact for your needs.</string>
                                                         <buttonConfiguration key="configuration" style="plain" title="Skip for now">
                                                             <fontDescription key="titleFontDescription" name="Gilroy-Regular" family="Gilroy-Regular" pointSize="13"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="skip_btn:" destination="uVH-eI-ibF" eventType="touchUpInside" id="fM8-vp-thc"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
