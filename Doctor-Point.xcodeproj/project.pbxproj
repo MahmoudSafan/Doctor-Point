@@ -16,6 +16,7 @@
 		A8EDAE992829052600EA12D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EDAE982829052600EA12D9 /* Assets.xcassets */; };
 		A8EDAE9C2829052600EA12D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EDAE9A2829052600EA12D9 /* LaunchScreen.storyboard */; };
 		A8EDAEB828291A3500EA12D9 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8EDAEB4282919E600EA12D9 /* Gilroy-SemiBold.ttf */; };
+		A8F2378C282D1CC0004ACFB1 /* signing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F2378B282D1CC0004ACFB1 /* signing.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		A8EDAEA6282919E600EA12D9 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
 		A8EDAEB4282919E600EA12D9 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		A8EDAEB5282919E600EA12D9 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		A8F2378B282D1CC0004ACFB1 /* signing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signing.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		A8EDAE8E2829052400EA12D9 /* Doctor-Point */ = {
 			isa = PBXGroup;
 			children = (
+				A8F2378A282D1CA6004ACFB1 /* signing */,
 				A8DF4832282A4ADC000D2498 /* Utilites */,
 				A8DF4831282A40A2000D2498 /* onboarding */,
 				A8EDAE8F2829052400EA12D9 /* AppDelegate.swift */,
@@ -104,6 +107,14 @@
 				A8EDAEB4282919E600EA12D9 /* Gilroy-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A8F2378A282D1CA6004ACFB1 /* signing */ = {
+			isa = PBXGroup;
+			children = (
+				A8F2378B282D1CC0004ACFB1 /* signing.storyboard */,
+			);
+			path = signing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8EDAE9C2829052600EA12D9 /* LaunchScreen.storyboard in Resources */,
+				A8F2378C282D1CC0004ACFB1 /* signing.storyboard in Resources */,
 				A8EDAEB828291A3500EA12D9 /* Gilroy-SemiBold.ttf in Resources */,
 				A8EDAE992829052600EA12D9 /* Assets.xcassets in Resources */,
 				A8EDAE972829052400EA12D9 /* Main.storyboard in Resources */,

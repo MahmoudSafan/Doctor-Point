@@ -16,11 +16,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func getStarted3_btn(_ sender: UIButton) {
-        rootTo("Onboarding_4", "", "Main")
+        rootTo("sign", "", "Main")
     }
     
     @IBAction func skip_btn(_ sender: UIButton) {
-        rootTo("Onboarding_4", "", "Main")
+        rootTo("sign", "", "Main")
     }
     
     override func viewDidLoad() {
