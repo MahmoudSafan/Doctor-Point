@@ -10,4 +10,4 @@ Easily connect with doctor and start video chat for your better treatment & Pres
 Book an appointment with doctor. Chat with doctor via appointment letter. 
 Get consultent.
 
-<img src="https://github.com/MahmoudSafan/Doctor-Point/blob/main/20220515-162555-395.gif" width ="450" height="900" > 
+<img src="https://github.com/MahmoudSafan/Doctor-Point/blob/main/20220515-162555-395.gif" width ="200" height="400" > 
