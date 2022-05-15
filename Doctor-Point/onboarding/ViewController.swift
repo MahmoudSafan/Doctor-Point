@@ -22,6 +22,11 @@ class ViewController: UIViewController {
     @IBAction func skip_btn(_ sender: UIButton) {
         rootTo("sign", "", "Main")
     }
+    @IBAction func createAcc1_btn(_ sender: UIButton) {
+    }
+    @IBAction func signIn_btn(_ sender: UIButton) {
+        rootTo("sign_in","", "Main")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
